@@ -1,4 +1,6 @@
   
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Color_star-en.svg/1200px-Color_star-en.svg.png)
+
 ```
       1. Respiratory/Cardiovascular/Lymphatic
                                              \
@@ -7,14 +9,14 @@
                                              4 Gastrointestinal/Renal/Urogenital
 ```
 
-4am:   
+4am/`bluezone`:   
 - Gastrointenstinal: Dump
 - Renal: Pee
 - Urogenital: Cum
 
    ---
 
-5am:   
+5am/`violet`:   
 - Skin: Bathe
 - Nerves: Adrenaline
 - Endocrine: `Cortisol`
