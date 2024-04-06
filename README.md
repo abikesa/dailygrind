@@ -37,9 +37,9 @@
    - Caffé
 6. Expression
    - Digestivo
-      - Physical (`Week of April 8`)
+      - Physical/Complexity of Human Nature (`Week of April 8`)
          - Optician & drivers licence
          - ENT
          - Sports Medicine/Orthopedics 
-      - Communal
-      - Transcendental
+      - Communal/Moral Ambiguity
+      - Transcendental/Honor
