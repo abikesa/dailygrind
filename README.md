@@ -24,7 +24,7 @@
      2. **Mango**  
      3. **Tomatillo** 
      4. **Pomegranate** 
-     5. **Star Fruit (Carambola)**     
+     5. **Carambola**     
      6. **Blackberries**  
      7. **Kiwi**  
      8. **Cherry** 
@@ -37,6 +37,9 @@
    - Caffé
 6. Expression
    - Digestivo
-      - Physical
+      - Physical (`Week of April 8`)
+         - Optician & drivers licence
+         - ENT
+         - Sports Medicine/Orthopedics 
       - Communal
       - Transcendental
