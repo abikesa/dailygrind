@@ -42,4 +42,8 @@
          - ENT
          - Sports Medicine/Orthopedics 
       - Communal/Moral Ambiguity
+         - Joan's preference for June 1st
+         - Dad & Moms June 4th departure
+         - My Grants
+         - Thesis 
       - Transcendental/Honor
