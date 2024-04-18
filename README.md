@@ -45,5 +45,6 @@
          - Joan's preference for June 1st
          - Dad & Moms June 4th departure
          - My Grants
-         - Thesis 
+         - Thesis
+         - CLTX is beckoning!!
       - Transcendental/Honor
