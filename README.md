@@ -49,3 +49,4 @@
          - CLTX is beckoning!!
          - EdAssist notifications (is my balance $zero$?)
       - Transcendental/Honor
+         - Ella 
