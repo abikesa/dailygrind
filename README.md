@@ -25,22 +25,12 @@
 
 #
 
-6. Expression
-   - Digestivo
-      - Physical/Complexity of Human Nature (`Week of April 8`)
-         - Optician & drivers licence
-         - ENT
-         - Sports Medicine/Orthopedics 
-      - Communal/Moral Ambiguity
-         - Joan's preference for June 1st
-         - Dad & Moms June 4th departure
-         - My Grants
-         - Thesis
-         - CLTX is beckoning!!
-         - EdAssist notifications (is my balance $zero$?)
-      - Transcendental/Honor
-         - Ella 
+- Drivers license
+- ENT
+- Orthopedic
+- Grants
+- Thesis
+   - Calculator
+- Cltx
+- Wk 6-8 notes & labs 
 
-#
-
-> *Optimus - 15YR Solera Rum (750ml)*
