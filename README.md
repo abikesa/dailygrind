@@ -1,40 +1,30 @@
- 
-                                     1. Root    
-                                            \ 
-                          2. Pentatonic ->  4. Chromatic  -> 5. Temperament -> 6. Expression
-                                            / 
-                                            3. Diatonic
- 
 
-### God
-1. Root
-   - Italian cuisine
-2. Pentatonic
-   - Aperitivo
-   - Antipasto
-   - Primo
-   - Secundo
-   - Contorno 
-### Art
-3. Diatonic
-   - Dolce
-4. Chromatic
-   - Frutta
-     1. **Pitaya** 
-     2. **Mango**  
-     3. **Tomatillo** 
-     4. **Pomegranate** 
-     5. **Carambola**     
-     6. **Blackberries**  
-     7. **Kiwi**  
-     8. **Cherry** 
-     9. **Fig** 
-     10. **Blood Orange**  
-     11. **Papaya** 
-     12. **Lychee**  
-### Man
-5. Temparement
-   - Caffé
+
+![](frontier.png)
+ 
+                                        1. Root
+                                               \
+                              2. Pentatonic -> 4. Chromatic -> 5. Temperament -> 6. Expression
+                                               /
+                                               3. Diatonic
+
+
+
+### Man/Frontiers/Malum
+##### (Alterations/Meaning: ♭♭7,♭9,♯9,♯11,♭13) 
+5. Temperament/Heretical
+6. Expression/**WAR**
+### Art/Bustle/Se
+##### (Extensions/Cast: 11th, 13th)
+3. Diatonic/Mundane
+4. Chromatic/**AGILITY**
+### God/Order/Prohibitum
+##### (Foundation/Stage: 1st, 3rd, 5th, 7th, 9th)
+1. Root/Ecclessiastical 
+2. Pentatonic/**PEACE**
+
+#
+
 6. Expression
    - Digestivo
       - Physical/Complexity of Human Nature (`Week of April 8`)
@@ -50,3 +40,7 @@
          - EdAssist notifications (is my balance $zero$?)
       - Transcendental/Honor
          - Ella 
+
+#
+
+> *Optimus - 15YR Solera Rum (750ml)*
