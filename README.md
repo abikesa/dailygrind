@@ -25,12 +25,10 @@
 
 #
 
-- Drivers license
-- ENT
-- Orthopedic
-- Grants
-- Thesis
-   - Calculator
-- Cltx
-- Wk 6-8 notes & labs 
+- Andy Cameron appointment
+- ENT, Orthopedic
+- Grants, Thesis, Calculator
+- Shruti, Philosophe
+- Cltx, Kidney Int
+
 
