@@ -29,6 +29,7 @@
 - ENT, Orthopedic
 - Grants, Thesis, Calculator
 - Shruti, Philosophe
-- Cltx, Kidney Int
+- Kidney Int
+- LoR for Kevin to Hopkins
 
 
