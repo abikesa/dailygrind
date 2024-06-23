@@ -1,0 +1,4 @@
+- Coping
+- Adapting
+- Learning
+  
