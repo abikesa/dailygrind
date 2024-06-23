@@ -1,0 +1,4 @@
+- Python
+- AI
+- R
+- Stata
