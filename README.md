@@ -18,11 +18,11 @@
 ### Apollo 5, 6
 - `♭9,♯9,♯11,♭13`
 
-                                        1. Root
+                                        1. Hymn
                                                \
-                              2. Pentatonic -> 4. Chromatic -> 5. Temperament -> 6. Expression
+                                    2. Soul -> 4. NjS -> 5. Jazz -> 6. Fusion
                                                /
-                                               3. Diatonic
+                                               3. Blues
 
 ![](https://abikesa.github.io/music/frontier.png)
 
