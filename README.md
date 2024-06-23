@@ -18,11 +18,13 @@
 ### Apollo 5, 6
 - `♭9,♯9,♯11,♭13`
 
-                                        1. Hymn
-                                               \
-                                    2. Soul -> 4. NjS -> 5. Jazz -> 6. Fusion
-                                               /
-                                               3. Blues
+> This is all tricky terrain. Building llms is capital-intensive, like drilling for oil.
+   
+                          1. Digital Information
+                                                \
+                  2. Azure's Computing Power -> 4. Human Expertise like Ilya Sustayever -> 5. Leadership e.g. Sam Altman -> 6. Dominance of AAA-MM-N
+                                                /
+                                                3. Nvidia-designed GPUs
 
 ![](https://abikesa.github.io/music/frontier.png)
 
@@ -30,5 +32,8 @@
 # Is artificial intelligence making big tech too big?      
 ###### Previous scares have been overblown. This one might not be       
 ![](https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/content-assets/images/20240622_WBP505.jpg)
+
+
+
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Color_star-en.svg/1200px-Color_star-en.svg.png)
