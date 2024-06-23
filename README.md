@@ -1,35 +1,29 @@
+![](https://abikesa.github.io/zarathustra/python.png)
 
 
-![](frontier.png)
  
+                                        1. Voir
+                                               \
+                                  2. Savoir -> 4. Communication -> 5. Leadership -> 6. Achievements
+                                               /
+                                               3. Pouvoir
+
+
+### Dionysus 1, 2, 3
+- `1st, 3rd, 5th, ♭♭7, 9th`
+
+### Sing O Muse 4
+- `11th, 13th`
+
+### Apollo 5, 6
+- `♭9,♯9,♯11,♭13`
+
                                         1. Root
                                                \
                               2. Pentatonic -> 4. Chromatic -> 5. Temperament -> 6. Expression
                                                /
                                                3. Diatonic
 
+![](https://abikesa.github.io/music/frontier.png)
 
-
-### Man/Frontiers/Malum
-##### (Alterations/Meaning: ♭♭7,♭9,♯9,♯11,♭13) 
-5. Temperament/Heretical
-6. Expression/**WAR**
-### Art/Bustle/Se
-##### (Extensions/Cast: 11th, 13th)
-3. Diatonic/Mundane
-4. Chromatic/**AGILITY**
-### God/Order/Prohibitum
-##### (Foundation/Stage: 1st, 3rd, 5th, 7th, 9th)
-1. Root/Ecclessiastical 
-2. Pentatonic/**PEACE**
-
-#
-
-- Andy Cameron appointment
-- ENT, Orthopedic
-- Grants, Thesis, Calculator
-- Shruti, Philosophe
-- Kidney Int
-- LoR for Kevin to Hopkins
-
-
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Color_star-en.svg/1200px-Color_star-en.svg.png)
