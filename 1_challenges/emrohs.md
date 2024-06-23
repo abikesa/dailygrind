@@ -1,0 +1,7 @@
+- Embrace more remote overtones of harmonic series
+- Have some integrity and do not try to build systems
+- Squandered time arguing about "null-hypothesis"
+   - Coin-flip in US general elections
+   - `This isn't an engineering problem`
+   - Do not ask questions that aren't questions
+   - Or argue about issues that aren't issues
