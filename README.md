@@ -2,11 +2,11 @@
 
 
  
-                                        1. Voir
+                                        1. iOS
                                                \
-                                  2. Savoir -> 4. Communication -> 5. Leadership -> 6. Achievements
+                               2. Microsoft -> 4. Facebook -> 5. Google -> 6. Amazon
                                                /
-                                               3. Pouvoir
+                                               3. Nvidia
 
 
 ### Dionysus [1](https://github.com/abikesa/dailygrind/blob/main/1_challenges/emrohs.md), 2, [3](https://github.com/abikesa/dailygrind/blob/main/3_tools/gpt-4o.md)
