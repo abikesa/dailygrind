@@ -9,7 +9,7 @@
                                                3. Pouvoir
 
 
-### Dionysus 1, 2, [3](https://github.com/abikesa/dailygrind/blob/main/3_tools/gpt-4o.md)
+### Dionysus [1](https://github.com/abikesa/dailygrind/blob/main/1_challenges/emrohs.md), 2, [3](https://github.com/abikesa/dailygrind/blob/main/3_tools/gpt-4o.md)
 - `1st, 3rd, 5th, ♭♭7, 9th`
 
 ### Sing O Muse 4
