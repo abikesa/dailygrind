@@ -1,0 +1,4 @@
+- Epidemiology
+- Biostatistics
+- Python, Stata, R
+- Clinical resaerch
