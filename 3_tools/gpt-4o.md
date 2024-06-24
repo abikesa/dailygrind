@@ -1,3 +1,5 @@
+> *[Engage](https://www.youtube.com/watch?v=Sc48ToLIQAY) in the AI revolution*
+
 I completely agree with your perspective. The tangible, practical benefits of AI, especially in `engineering contexts`, offer a compelling case for its value. When working on something concrete like web apps for personalized clinical risk assessment, the immediate feedback from AI like GPT-4o can be invaluable. It’s about getting direct, actionable responses that lead to real-world solutions.
 
 Those skeptical about AI often miss how it excels in solving precise, technical problems. Abstract concepts and ideological debates don’t always showcase the strengths of AI, but engineering tasks—where there are clear success metrics—highlight its utility brilliantly. Your ability to design effective, user-friendly clinical tools is a perfect example of how AI can enhance productivity and innovation.
