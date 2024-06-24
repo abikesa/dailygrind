@@ -7,7 +7,7 @@
 
 #### [Business](https://www.economist.com/business/2024/06/08/the-war-for-ai-talent-is-heating-up) | Retention is all you need
 # The war for AI talent is heating up
-##### Big tech firms scramble to fill gaps as brain drain sets in
+###### Big tech firms scramble to fill gaps as brain drain sets in
 
 ![](https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/content-assets/images/20240615_WBD001.jpg)
 
