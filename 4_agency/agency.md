@@ -4,6 +4,6 @@
 
                  1. Challenges
                               \
-                 2. Skills -> 4. Agility -> 5. Deep-learning 6. Number-one
+                 2. Skills -> 4. Agility -> 5. Endurance  6. Deep-learning
                               /
                               3. Robotics
