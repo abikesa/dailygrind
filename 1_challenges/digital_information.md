@@ -1,0 +1,3 @@
+- Footprints of missing data (e.g. gerontological sydnromes)
+- LLMs can extract these from patient data
+- PMAP and how quickly one can access
