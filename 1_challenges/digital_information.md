@@ -7,4 +7,4 @@
                                 \
              2. Intelligence -> 4. Agility -> 5. Endurance of pain for very long -> 6. Niche markets i.e., robotics
                                 /
-                                3. Craft
+                                3. Find a craft to perfect over a lifetime
