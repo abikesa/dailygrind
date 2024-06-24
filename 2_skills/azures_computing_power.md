@@ -1,0 +1,3 @@
+- Leverage it via GPT-4o
+- Thus far we've used it to create a "Public Square & Discussion Forum"
+- JH on GH book series with yours truly as Editor
