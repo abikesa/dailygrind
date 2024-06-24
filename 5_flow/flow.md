@@ -4,3 +4,4 @@
 
 # Endurance makes sense if one is in "flow"
 - But: `2024 – SOM Annual Required Training` due before July 2024
+- Does Kevin still need my LoR?
