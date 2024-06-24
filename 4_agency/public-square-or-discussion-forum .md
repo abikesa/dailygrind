@@ -1,0 +1,5 @@
+- Jupyter books
+- Book series
+- Embedded webApps
+- Personalized risks
+- Annotation and dynamic content
