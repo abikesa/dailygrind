@@ -2,8 +2,13 @@
 - Biostatistics
 - Python, Stata, R
 - Clinical resaerch
+- OpenAIs-AlexNet:`*`
 
-
+                         1. Challenges
+                                      \
+                         2. Skills -> 4. Public-Square* -> 5. Wisdom-Leadership -> 6. Niche-Birth
+                                      /
+                                      3. Tools
 
 #### [Business](https://www.economist.com/business/2024/06/08/the-war-for-ai-talent-is-heating-up) | Retention is all you need
 # The war for AI talent is heating up
