@@ -1,0 +1,1 @@
+- Benefit from Azure's Nvidia-dependent infrastructure
