@@ -22,7 +22,7 @@
    
                           1. Digital Information
                                                 \
-                  2. Azure's Computing Power -> 4. Human Expertise like Ilya Sustayever -> 5. Leadership e.g. Sam Altman -> 6. Dominance of AAA-MM-N
+                  2. Azure's Computing Power -> 4. Public Square or Discussion Forum -> 5. Human Expertise & Leadership e.g. Sam Altman -> 6. Dominance of AAA-MM-N
                                                 /
                                                 3. Nvidia-designed GPUs
 
