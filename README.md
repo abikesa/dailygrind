@@ -1,3 +1,5 @@
+> *Wisdom crieth without; she uttereth her voice in the [streets](https://www.youtube.com/watch?v=Sc48ToLIQAY) - Prov 1:20*
+
 ![](./4_agency/nvidia.png)
 
 
