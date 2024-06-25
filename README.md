@@ -1,4 +1,4 @@
-![](./4_agency/python.png)
+![](./4_agency/nvidia.png)
 
 
  
@@ -24,7 +24,7 @@
                                                 \
                   2. Azure's Computing Power -> 4. Public Square or Discussion Forum -> 5. Human Expertise & Leadership e.g. Sam Altman -> 6. Dominance of AAA-MM-N
                                                 /
-                                                3. Nvidia-designed GPUs
+                                                3. GPUs by Nvidia-designed 
 
 ![](https://abikesa.github.io/music/frontier.png)
 
