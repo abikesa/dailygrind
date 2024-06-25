@@ -12,7 +12,7 @@
 ### Dionysus [1](https://github.com/abikesa/dailygrind/blob/main/1_challenges/emrohs.md), 2, [3](https://github.com/abikesa/dailygrind/blob/main/3_tools/gpt-4o.md)
 - `1st, 3rd, 5th, ♭♭7, 9th`
 
-### [Sing](https://abikesa.github.io/zarathustra/) O Muse 4
+### [Sing](https://abikesa.github.io/zarathustra/) O Muse [4](https://www.youtube.com/watch?v=Sc48ToLIQAY)
 - `11th, 13th`
 
 ### Apollo 5, 6
@@ -24,7 +24,7 @@
                                                 \
                   2. Azure's Computing Power -> 4. Public Square or Discussion Forum -> 5. Human Expertise & Leadership e.g. Sam Altman -> 6. Dominance of AAA-MM-N
                                                 /
-                                                3. GPUs by Nvidia-designed 
+                                                3. GPUs by Nvidia
 
 ![](https://abikesa.github.io/music/frontier.png)
 
