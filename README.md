@@ -9,7 +9,7 @@
 ### Embrace Notes From All Keys 1, 2, 3
 - `Root, 3rd, 5th, ♭♭7, 9th`
   
-### Passing Chords [4](https://abikesa.github.io/bach/) 
+### Passing Chords ([Dancing in Chains](https://www.gutenberg.org/cache/epub/37841/pg37841-images.html)) [4](https://abikesa.github.io/bach/)
 - `11th, 13th` Voice leading, Passing chords, Chromaticism
   
 ### Systematized  5, 6
