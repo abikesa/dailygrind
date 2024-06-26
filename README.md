@@ -1,5 +1,20 @@
 > *Wisdom crieth without; she uttereth her voice in the [streets](https://www.youtube.com/watch?v=Sc48ToLIQAY) - Prov 1:20*
 
+                     1. Pessimism
+                                 \
+        2. Beyond Good & Evil -> 4. Dionysian -> 5. Science -> 6. Morality
+                                 /
+                                 3. Robustness
+
+### Embrace Notes From All Keys 1, 2, 3
+- `Root, 3rd, 5th, ♭♭7, 9th`
+  
+### Passing Chords [4](https://abikesa.github.io/bach/) 
+- `11th, 13th` Voice leading, Passing chords, Chromaticism
+  
+### Systematized  5, 6
+- `♭9,♯9,♯11,♭13` Temperament
+  
 ![](./4_agency/nvidia.png)
 
 
