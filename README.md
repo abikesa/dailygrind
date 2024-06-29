@@ -2,7 +2,7 @@
 
                      1. Pessimism
                                  \
-        2. Beyond Good & Evil -> 4. Dionysian -> 5. Science -> 6. Morality
+        2. Beyond Good & Evil -> 4. Uncommunicable -> 5. Science -> 6. Morality
                                  /
                                  3. Robustness
 
