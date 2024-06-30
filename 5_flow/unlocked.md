@@ -6,7 +6,7 @@
 
 ### Dionysus 1, 2, [3](https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart)
 ### Sing O Muse [4](https://en.wikipedia.org/wiki/Johann_Sebastian_Bach)
-### Apollo 5, [6](https://en.wikipedia.org/wiki/George_Frideric_Handel)
+### Apollo [5](https://en.wikipedia.org/wiki/George_Frideric_Handel), 6
 
 
                     1. Modes
