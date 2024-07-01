@@ -1,7 +1,7 @@
 > The Goldberg's are variations of melody and rhythm on a fixed chord structure. Bach grounded his approach on genre & style, making this yet another beautiful didactic experience for the lucky, happy few Bach fanatics
 
                  
-![](https://www.themusicstand.com/v/vspfiles/photos/599847-2.jpg)     
+![](bach.png)     
 
 
 
