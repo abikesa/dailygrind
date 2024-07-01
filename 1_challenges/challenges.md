@@ -7,3 +7,28 @@
 
 
 [Porn](https://m.youtube.com/watch?v=qS0IsmEAoJY) without due diligence to the earlier [overtones](https://www.britannica.com/science/sound-physics/Overtones), denying one the pleasure a pro gospel musician derives from the organic evolution of the historical genres: hymn, soul, blues, njs, jazz, fusion 
+
+## 2
+
+> *Receive with simplicity everything that happens to you - Rashi*
+> *The Coen Brothers laugh at their characters or anyone who is seeking meaning in the binary sense of "the truth" or "lies"*
+
+                  1. Meaning
+                             \
+    2. Beyond Good & Evil -> 4. Values -> 5. Identity -> 6. Acccomplishments
+                             /
+                             3. Robustness
+
+
+### Continuous 1, 2, 3
+- Error, `Mozart`: Dionysus
+### Multicategory 4
+- [Ranking](https://abikesa.github.io/philosophy/foreword/foreword.html), `Bach`: Hindu
+### Binary 5, 6
+- Truth, `Handel`: [Judeo-Christian](https://www.youtube.com/watch?v=N9v6VJLZ8_I)
+
+                     1. Chaos
+                             \
+                2. Frenzy -> 4. Dionysian -> 5. Algorithm -> 6. Binary
+                             /
+                             3. Energy
