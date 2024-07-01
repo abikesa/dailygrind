@@ -36,3 +36,7 @@
 ## [3](https://www.youtube.com/watch?v=dlvKrzInK7w)
 
 In the absence of frenzy, energy, and the dionysian, you'll confront the chaos of life with a thirst and hunger for meaning, values, identity, and accomplishments. Appropriately, this scene offers `comic relief` to our protagonist in the form of Mrs. Samsky & Joint-sharing. But taken from the context of the second Rabbi's "recommendation", its doubly hilarious. We need to stop asking questions and just `do` things
+
+## 4
+
+Mozart did have frenzy & energy. Yet he also remained grounded in tradition, he revered Handel, Haydn, and the London Bach. In his work we see him containing all his frenzy within the templates he inherited. We might thus call him Dionysian!
