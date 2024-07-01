@@ -25,7 +25,7 @@
 ### Multicategory 4
 - [Ranking](https://abikesa.github.io/philosophy/foreword/foreword.html), `Bach`: Hindu
 ### Binary 5, 6
-- Truth, `Handel`: [Judeo-Christian](https://www.youtube.com/watch?v=N9v6VJLZ8_I)
+- [Truth](https://www.youtube.com/watch?v=uoetGnTIjWY), `Handel`: [Judeo-Christian](https://www.youtube.com/watch?v=N9v6VJLZ8_I)
 
                      1. Chaos
                              \
