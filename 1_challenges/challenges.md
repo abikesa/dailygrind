@@ -20,7 +20,7 @@
                              3. Robustness
 
 
-### Continuous 1, 2, 3
+### Continuous [1](https://youtube.com/shorts/IXabPJUN098?si=rIKlRaRZ0lIfbRT8), 2, 3
 - Error, `Mozart`: Dionysus
 ### Multicategory 4
 - [Ranking](https://abikesa.github.io/philosophy/foreword/foreword.html), `Bach`: Hindu
