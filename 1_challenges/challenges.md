@@ -40,3 +40,7 @@ In the absence of frenzy, energy, and the dionysian, you'll confront the chaos o
 ## 4
 
 Mozart did have frenzy & energy. Yet he also remained grounded in tradition, he revered Handel, Haydn, and the London Bach. In his work we see him containing all his frenzy within the templates he inherited. We might thus call him Dionysian!
+
+## 5
+
+[Education](https://www.youtube.com/watch?v=1lFVRqOammw) to do what?
