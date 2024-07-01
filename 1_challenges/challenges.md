@@ -10,8 +10,8 @@
 
 ## 2
 
-> *Receive with simplicity everything that happens to you - Rashi*
-> *The Coen Brothers laugh at their characters or anyone who is seeking meaning in the binary sense of "the truth" or "lies"*
+> *Receive with simplicity everything that happens to you - Rashi*                
+> *The Coen Brothers laugh at their characters or anyone who is seeking meaning in the binary sense of "the truth" or "lies"*                 
 
                   1. Meaning
                              \
