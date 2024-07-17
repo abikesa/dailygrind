@@ -13,6 +13,6 @@
 ### Political 4
 - $X$ multivariable competing risks sHR & base-case non-parametric for each race
   
-### 5, 6 
+### Personal 5, 6 
 - $\beta$ coeffiicent vector
 - $SV$ cdot product to obtained $logHR$
