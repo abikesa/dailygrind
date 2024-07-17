@@ -15,4 +15,4 @@
   
 ### 5, 6 
 - $\beta$ coeffiicent vector
-- $SV$ cdot product with
+- $SV$ cdot product to obtained $logHR$
