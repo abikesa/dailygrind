@@ -1,0 +1,3 @@
+- thesis
+- whole
+- srtr
