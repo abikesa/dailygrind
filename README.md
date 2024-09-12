@@ -3,7 +3,7 @@
 
                      1. Modes
                              \
-                   2. GPT -> 4. Latency -> 5. Unveiled -> 6. Bespoke
+                   2. GPT -> 4. Latency.Attention -> 5. Unveiled -> 6. Bespoke
                              /
                              3. Reinforcement.Feedback
                              
