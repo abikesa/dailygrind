@@ -5,7 +5,7 @@
                              \
                    2. GPT -> 4. Latency -> 5. Unveiled -> 6. Bespoke
                              /
-                             3. Robotics
+                             3. Reinforcement.Feedback
                              
 ## Experience, Grounding
 1. Senses
