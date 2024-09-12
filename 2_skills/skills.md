@@ -16,7 +16,13 @@
 2. `Stack-Interval-Voicing`
 3. Temperement-Degree-VII/♭II-♭V
 ## Robotics
+1. Piano-Ear.training-Feedback
+2. Dream-like emotional quality of Claude Debussy's whole-tone system
+3. Grounding after "metaphysical" passing chord
 ## Latency
+1. Students & learning
+2. Attention, to previous & nextoken, is all you need
+3. Heroes journey with specific milestone: emotional-tragic-narrative point-on-arc
 ## Unveiled
 1. Communicate
 2. `Passing-Chord`
