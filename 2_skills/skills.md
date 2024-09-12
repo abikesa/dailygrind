@@ -14,7 +14,7 @@
 ## GPT
 1. Vocabulary
 2. `Stack-Interval-Voicing`
-3. Temperement-Degree-VII-♭V
+3. Temperement-Degree-VII/♭II-♭V
 ## Robotics
 ## Latency
 ## Unveiled
