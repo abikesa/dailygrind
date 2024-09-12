@@ -3,14 +3,14 @@
 
                      1. Modes
                              \
-                   2. GPT -> 4. Curate -> 5. Intepret -> 6. Encode
+                   2. GPT -> 4. Latency -> 5. Unveiled -> 6. Bespoke
                              /
                              3. Robotics
                              
 ## Experience, Grounding
 1. Senses
-2. Cognitive
-3. Feedback
+2. Brain
+3. eMotion
    
 ## Abstraction, Skies
 4. Art
