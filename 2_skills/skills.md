@@ -35,4 +35,6 @@
    - Also on 1st inversion of Major when the 3rd is a passing (thus chromatic) tone
    - It emerges as a "leading", "bridging" (in pocket), or dominant" function amongst others
    - [Max Martin](https://www.youtube.com/watch?v=VtQorLzzbQw) creatively uses a ♭II arpeggio (lyrically, semantically & syntatically apt)
-   - His lyrics are a trochaic tetrameter $$\frac{12}{8}$$: `im` per-`fect`-for | `you`: E F-A-C | B
+   - His lyrics are a trochaic tetrameter $$\frac{12}{8}$$: `im` per-`fect`-for | `you`: E | F-A-C | B
+   - Think of the ♭II arpeggio as a substitute of the 3rd (E-`G♯`-B)
+   - An insertion in a "pocket" instead of repetition
