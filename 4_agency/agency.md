@@ -71,7 +71,7 @@ This layer represents the **output and synthesis**, where the augmented input is
 4. **Latency: Hero’s journey with specific milestone: emotional-tragic-narrative point-on-arc**  
    The musical process mirrors a hero’s journey, where your moment of discovery (the augmented passing chord) is an emotional milestone in the arc of the song.
 
-5. **Unveiled: NexToken \(\frac{12}{8}\) = Major**  
+5. **Unveiled: NexToken $\frac{12}{8}$ = Major**  
    You finalize the structure with the awareness of the 12/8 time signature. The rhythm creates harmonic "pockets" for the chords you’ve added, completing the song's transformation.
 
 6. **Bespoke: Qualities Dim & Aug now clearly for passing chords with certain NexToken characteristics**  
