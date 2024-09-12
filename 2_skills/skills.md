@@ -2,7 +2,7 @@
                          \
                2. GPT -> 4. Latency -> 5. Unveiled -> 6. Bespoke
                          /
-                         3. Robotics
+                         3. Reinforcement.Feedback
 
 
 # Intelligence-Cybernetics
@@ -16,7 +16,7 @@
 2. `Stack-Interval-Voicing`
 3. Temperement-Degree-VII/♭II-♭V
 ## Robotics
-1. Piano-Ear.training-Feedback
+1. Piano-Ear.Training-Reinforcement.Feedback
 2. Dream-like emotional quality of Claude Debussy's whole-tone system
 3. Grounding after "metaphysical" passing chord
 ## Latency
