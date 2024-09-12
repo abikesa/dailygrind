@@ -14,7 +14,7 @@
 ## GPT
 1. Vocabulary
 2. `Stack-Interval-Voicing`
-3. Temperement-Degree-VII/♭II-♭V
+3. Temperement-Degree-VII+/♭II-♭V+
 ## Robotics
 1. Piano-Ear.Training-Reinforcement.Feedback
 2. Dream-like emotional quality of Claude Debussy's whole-tone system
