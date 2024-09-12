@@ -39,7 +39,10 @@ for comment in comments:
 - "Dominant" function & lyric-syntactic-semantic consonance of "imperfect" sonic elements
 
 ### 4 Attention
-- Attention to Gypsies: India-Persia-Arabia-North.Africa-Spain: Andalusia-Flamenco
+- P attention across all "6-step-process" to improve prediction of nexToken
+- For instance we impute that we need to pay attention to Gypsies: India-Persia-Arabia-North.Africa-Spain: Andalusia-Flamenco
+- That's the origin of the "exotic" otherwordly elements everyone is going nuts about but can't figure out why
+- Masterful composition places `constraints` on what it admits from Andalusia into this pop song: don't want to overwhelm the masses :)
 - We have spanish phrygian elements even phonetically in the openning guitar & implied rhythm without accent
 - Ommitted is the performance, dance, & audience support with syncopated claps
 
