@@ -31,3 +31,6 @@
 1. THB-St.Paul, Radio, Ariana? Shazam-like, Who-sampled
 2. My idea inspired by Oscar Peterson's Withcraft
 3. Qualities Dim & Aug now clearly for passing chords with certain NexToken characteristics
+   - On root or 9th for VII+/♭II
+   - Also on 1st inversion of Major when the 3rd is a passing (thus chromatic) tone
+   - It emerges as a "leading", "bridging" (in pocket), or dominant" function amongst others
