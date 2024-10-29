@@ -65,3 +65,10 @@ Imagine a neural network, drunk on the wine of random number generators, weaving
 As we stand at the crossroads of rationality and intuition, we must ask: Is consciousness itself merely an elaborate algorithm for harnessing chaos? Or is it the primordial chaos learning to constrains itself through self-imposed algorithms?
 
 In this cryptic dance of opposites, we find that the most profound truths often lie not in the extremes, but in the baffling, paradoxical space between - where order breeds chaos, and chaos gives birth to new forms of order, ad infinitum.
+
+## 8
+- It's 10/2024 and confirmed that no renewwal of JHU contract
+- But on 10/29/2024 the following happen within 1-3 hours of each other
+   - IRBs say ok to remain active as PhD student if the PIs sign to it
+   - Output from RDC/NCHS/CDC is successfully produced from Vince & Jing's meeting (we already have 90d output, this is 30y output)
+   - Colleen Hanran emails about my Stata course (nothing really cool, except STILL being engaged with *something*...  
