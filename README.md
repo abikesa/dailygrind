@@ -9,7 +9,7 @@
                              
 ## Experience, Grounding
 1. Senses
-2. Brain
+2. [Brain](https://www.youtube.com/watch?v=9miVG2xT5jY)
 3. eMotion
    
 ## Abstraction, Skies
