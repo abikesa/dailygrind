@@ -12,7 +12,22 @@
    - Cancelling Stata classes 
 - eLearning for eIRB
 - Cluster access!!
-- Vincent scripts to Minnesota 
+- Vincent scripts to Minnesota
+- e210 time records
+
+Please review and approve the time sheets listed above. You will need to select the Prior Year button if you have outstanding months from prior fiscal years. If you have already approved these forms, please disregard this email.
+ 
+For more information, go to https://e210.johnshopkins.edu.
+ 
+Thank You,
+ 
+==============================
+E210 Time Record
+https://e210.johnshopkins.edu
+ 
+E210 Help Desk
+E210help@jhu.edu
+
   
 ```
 Hi everyone.  As a reminder, all continuing PhD students must be registered for a minimum of 3 credits each term, until graduation.  The SIS registration system for 3rd and 4th terms will open next week on 11/11/24 - please remember to register for both terms. 
