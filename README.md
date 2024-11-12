@@ -10,6 +10,10 @@
 ## Experience, Grounding
 1. Senses
 2. [Brain](https://www.youtube.com/watch?v=9miVG2xT5jY)
+   - Offer a strictly 2-year contract to Jersey
+   - Say you may not be available after that
+   - Unless they give me an offer I can’t refuse!
+
 3. eMotion
    
 ## Abstraction, Skies
