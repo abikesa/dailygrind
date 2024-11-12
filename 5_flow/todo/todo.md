@@ -8,6 +8,8 @@
 - Registration for 3rd & 4th terms
    - No Money
    - Jobless
+- Alert Department of Epi
+   - Cancelling Stata classes 
 
 ```
 Hi everyone.  As a reminder, all continuing PhD students must be registered for a minimum of 3 credits each term, until graduation.  The SIS registration system for 3rd and 4th terms will open next week on 11/11/24 - please remember to register for both terms. 
