@@ -8,7 +8,7 @@
                              3. Reinforcement.Feedback
                              
 ## Experience, Grounding
-1. Senses
+1. [Senses](https://www.youtube.com/watch?v=lriviAOVdBw)
 2. [Brain](https://www.youtube.com/watch?v=9miVG2xT5jY)
    - Offer a strictly 2-year contract to Jersey
    - Say you may not be available after that
