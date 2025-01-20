@@ -380,7 +380,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -396,6 +398,15 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-connections-between-athena-and-horses">Key Connections Between Athena and Horses:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#horses-in-athenas-broader-symbolism">Horses in Athena’s Broader Symbolism:</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -407,6 +418,7 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="orient">
 <h1>Orient<a class="headerlink" href="#orient" title="Permalink to this heading">#</a></h1>
+<p>Yes, Athena was indeed linked to horses, though not as prominently as gods like Poseidon. Her association with horses primarily arises from her role as a goddess of civilization, strategy, and ingenuity. Horses, being vital to both warfare and transportation in ancient Greece, symbolized strength, nobility, and technological advancement, all qualities that resonated with Athena’s domain.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FS-bZiCqzoA?start350" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figure class="align-default" id="id1">
 <a class="reference internal image-reference" href="act3/figures/blanche.*"><img alt="act3/figures/blanche.*" src="act3/figures/blanche.*" style="width: 1px; height: 1px;" /></a>
@@ -414,6 +426,23 @@ document.write(`
 <p><span class="caption-number">Fig. 28 </span><span class="caption-text"><em>The Wabbit</em>? Let’s think of the rabbit hole as a massive combinatorial search space. Is it cooperative, iterative, or adversarial? Let’s clarify one thing: “Kill the Wabbit” is outright adversarial. So our discussion is about “Following the Wabbit!”</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
+<section id="key-connections-between-athena-and-horses">
+<h2>Key Connections Between Athena and Horses:<a class="headerlink" href="#key-connections-between-athena-and-horses" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p><strong>Invention of the Bridle</strong>:
+Athena was credited with the invention of the bridle and harness, which allowed humans to tame and control horses. This invention was seen as a triumph of intellect over brute force, a recurring theme in her mythology. By enabling the domestication of horses, Athena contributed to the advancement of warfare, agriculture, and mobility—key pillars of civilized life.</p></li>
+<li><p><strong>Conflict with Poseidon</strong>:
+Athena’s connection to horses becomes more nuanced in her rivalry with Poseidon. While Poseidon was the god who created the horse, Athena’s mastery over tools and strategy often stood in contrast to Poseidon’s raw power. In their contest to become the patron deity of Athens, Poseidon’s gift of the horse (or a saltwater spring, depending on the version) was deemed less useful than Athena’s gift of the olive tree, a symbol of peace, prosperity, and practical utility.</p></li>
+<li><p><strong>Symbol of Strategic Warfare</strong>:
+Horses were central to ancient Greek warfare, particularly in chariotry and cavalry. Athena, as a goddess of strategic warfare, would naturally be linked to such symbols of martial prowess. While she is not often depicted riding a horse herself, her association with the tools and strategies that made horses effective in battle reinforces her indirect connection.</p></li>
+<li><p><strong>The Trojan Horse</strong>:
+Athena played a pivotal role in the myth of the Trojan Horse, which underscores her association with cunning strategy. Although the horse itself was not directly linked to Athena, the use of deception and ingenuity in crafting and employing the horse to infiltrate Troy aligns perfectly with her character. The Greeks dedicated the success of this ruse to Athena, recognizing her as the divine force behind their victory.</p></li>
+</ol>
+</section>
+<section id="horses-in-athenas-broader-symbolism">
+<h2>Horses in Athena’s Broader Symbolism:<a class="headerlink" href="#horses-in-athenas-broader-symbolism" title="Permalink to this heading">#</a></h2>
+<p>Athena’s connection to horses reflects her role as a mediator between chaos and order, nature and civilization. Where Poseidon represents the untamed, wild power of the sea and horses, Athena embodies the human capacity to channel and refine that power into something constructive and disciplined. This duality highlights her broader function as a goddess who brings balance and innovation to society.</p>
+<p>Athena’s symbolic relationship with horses thus complements her portrayal as a goddess of wisdom and ingenuity, further emphasizing her influence over the civilizing forces of ancient Greek culture.</p>
 <div class="cell tag_hide-input docutils container">
 <details class="hide above-input">
 <summary aria-label="Toggle hidden content">
@@ -483,7 +512,7 @@ document.write(`
         <span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">with_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">node_color</span><span class="o">=</span><span class="n">node_colors</span><span class="p">,</span> <span class="n">edge_color</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">,</span>
         <span class="n">node_size</span><span class="o">=</span><span class="mi">3000</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">connectionstyle</span><span class="o">=</span><span class="s2">&quot;arc3,rad=0.2&quot;</span>
     <span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Alitalia&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Athena&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 
 <span class="c1"># Run the visualization</span>
@@ -493,7 +522,7 @@ document.write(`
 </div>
 </details>
 <div class="cell_output docutils container">
-<img alt="../../_images/e08660e8447134ba0d3bacd3e8e3ed281a28a67f3fdf862350b4e427b3c6888f.png" src="../../_images/e08660e8447134ba0d3bacd3e8e3ed281a28a67f3fdf862350b4e427b3c6888f.png" />
+<img alt="../../_images/b0bd3f4d855b5645ed338434a00473b23aed98dfe6aa7eb70a42d05ee484d0e6.png" src="../../_images/b0bd3f4d855b5645ed338434a00473b23aed98dfe6aa7eb70a42d05ee484d0e6.png" />
 </div>
 </div>
 <figure class="align-default" id="id2">
@@ -502,6 +531,7 @@ document.write(`
 <p><span class="caption-number">Fig. 29 </span><span class="caption-text">IT’S A REALLY, surprisingly user-friendly experience,” says Stephen Askins, a shipping lawyer, of his interactions with the Houthis, the militia that has been attacking commercial ships in the Red Sea for more than a year. “You write to them, respectfully. They write back, respectfully, and wish you a happy passage.” Source: <a class="reference external" href="https://www.economist.com/interactive/international/2025/01/18/inside-the-houthis-moneymaking-machine">Economist</a></span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -558,6 +588,22 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-connections-between-athena-and-horses">Key Connections Between Athena and Horses:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#horses-in-athenas-broader-symbolism">Horses in Athena’s Broader Symbolism:</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
