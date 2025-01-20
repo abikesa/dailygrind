@@ -1,0 +1,779 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>System &#8212; Sympatico</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-bootstrap.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'act3/part1/part1_2';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Failure" href="part1_3.html" />
+    <link rel="prev" title="Cosmic" href="part1_1.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="https://alexsym.org/wp-content/uploads/2020/04/sympatico-Abbrev-01-500x394.png" class="logo__image only-light" alt="Sympatico - Home"/>
+    <script>document.write(`<img src="https://alexsym.org/wp-content/uploads/2020/04/sympatico-Abbrev-01-500x394.png" class="logo__image only-dark" alt="Sympatico - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../index.html">
+                    Tactical
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../act1/part1.html">Informational</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../act1/chapter1.html">Referral</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../act1/chapter2.html">Screening</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../act1/chapter3.html">Eligibility</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../act2/part2.html">Strategic</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../act2/chapter1.html">Principal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../act2/chapter2.html">Agent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../act2/chapter3.html">Risk</a></li>
+
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../part3.html">Operational</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="../act1.html">Literature 🌊</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="part1_1.html">Cosmic</a></li>
+
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">Uncertainty</a></li>
+<li class="toctree-l3"><a class="reference internal" href="part1_3.html">Failure</a></li>
+
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act2.html">Personalize ⚓️</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../part2/part2_1.html">Base</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../part2/part2_2.html">Risk</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../part2/part2_3.html">Student ☔️</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act3.html">Update 🧭</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../part3/part3_1.html">Notification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../part3/part3_2.html">Transformation</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../part3/part3_3.html">Feedback</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../../bibliography.html">Existential</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/abikesa/template/main?urlpath=tree/book/website/act3/part1/part1_2.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/act3/part1/part1_2.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>System</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#romantic-engagements-as-a-game-of-incomplete-information"><strong>Romantic Engagements as a Game of Incomplete Information</strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#key-game-features">Key Game Features:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#economic-equilibria-a-shift-from-cooperative-to-adversarial-dynamics"><strong>Economic Equilibria: A Shift from Cooperative to Adversarial Dynamics</strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cooperative-equilibrium-classical-engagements"><strong>Cooperative Equilibrium</strong> (Classical Engagements):</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adversarial-equilibrium-performative-engagements"><strong>Adversarial Equilibrium</strong> (Performative Engagements):</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#game-theory-analogy-high-stakes-romantic-poker"><strong>Game Theory Analogy: High-Stakes Romantic Poker</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#economic-bubbles-and-romantic-speculation"><strong>Economic Bubbles and Romantic Speculation</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#iterative-strategies-and-adversarial-adjustment"><strong>Iterative Strategies and Adversarial Adjustment</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#societys-divorce-from-embodiment"><strong>Society’s Divorce from Embodiment</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion-toward-a-new-equilibrium"><strong>Conclusion: Toward a New Equilibrium</strong></a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="system">
+<h1>System<a class="headerlink" href="#system" title="Permalink to this heading">#</a></h1>
+<p>Let’s dive deeper into the game theory and economic equilibria framework to analyze how modern romantic dynamics, particularly Gen Z engagements, align with adversarial games and high-variance strategies.</p>
+<hr class="docutils" />
+<section id="romantic-engagements-as-a-game-of-incomplete-information">
+<h2><strong>Romantic Engagements as a Game of Incomplete Information</strong><a class="headerlink" href="#romantic-engagements-as-a-game-of-incomplete-information" title="Permalink to this heading">#</a></h2>
+<p>In game theory, relationships can traditionally be seen as <strong>cooperative games</strong>, where players (partners) work toward mutual benefit (e.g., marriage and companionship). However, the rise of performative engagements introduces an <strong>adversarial dynamic</strong>, where participants (or even the couple themselves) are simultaneously players and spectators in a broader social arena optimized for external validation.</p>
+<section id="key-game-features">
+<h3>Key Game Features:<a class="headerlink" href="#key-game-features" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p><strong>Payoffs</strong>:</p>
+<ul class="simple">
+<li><p>Traditional engagement: The payoff is intrinsic, tied to the long-term success of the relationship (e.g., a stable marriage).</p></li>
+<li><p>Performative engagement: The payoff shifts to immediate validation through social media metrics (likes, shares, comments).</p></li>
+</ul>
+</li>
+<li><p><strong>Information Asymmetry</strong>:</p>
+<ul class="simple">
+<li><p><strong>Internal Layer</strong>: The couple’s knowledge of their own relational stability is incomplete or biased by the allure of spectacle.</p></li>
+<li><p><strong>External Layer</strong>: The audience perceives only the curated, highly staged content, creating a feedback loop of distorted incentives.</p></li>
+</ul>
+</li>
+<li><p><strong>Risk Profiles</strong>:</p>
+<ul class="simple">
+<li><p>Traditional engagement was a low-risk, cooperative equilibrium—engagements generally guaranteed a wedding, with few deviations.</p></li>
+<li><p>Modern engagements are <strong>high-risk, high-reward</strong>, where the stakes are elevated by the pressure to deliver viral-worthy moments. This mirrors financial systems, where speculative bubbles often prioritize short-term gains over long-term stability.</p></li>
+</ul>
+</li>
+</ol>
+<hr class="docutils" />
+</section>
+</section>
+<section id="economic-equilibria-a-shift-from-cooperative-to-adversarial-dynamics">
+<h2><strong>Economic Equilibria: A Shift from Cooperative to Adversarial Dynamics</strong><a class="headerlink" href="#economic-equilibria-a-shift-from-cooperative-to-adversarial-dynamics" title="Permalink to this heading">#</a></h2>
+<section id="cooperative-equilibrium-classical-engagements">
+<h3><strong>Cooperative Equilibrium</strong> (Classical Engagements):<a class="headerlink" href="#cooperative-equilibrium-classical-engagements" title="Permalink to this heading">#</a></h3>
+<p>This equilibrium is rooted in trust, long-term commitment, and low volatility. The rules are simple:</p>
+<ol class="arabic simple">
+<li><p>Engagement represents mutual intention to marry.</p></li>
+<li><p>Social rituals reinforce stability (e.g., family involvement, community participation).</p></li>
+<li><p>The payoff is iterative, building gradually toward a stable, enduring relationship.</p></li>
+</ol>
+<p>This cooperative model creates <strong>positive-sum games</strong> where both players maximize joint utility over time.</p>
+</section>
+<section id="adversarial-equilibrium-performative-engagements">
+<h3><strong>Adversarial Equilibrium</strong> (Performative Engagements):<a class="headerlink" href="#adversarial-equilibrium-performative-engagements" title="Permalink to this heading">#</a></h3>
+<p>Modern romantic dynamics introduce <strong>zero-sum or even negative-sum games</strong>, where one player’s short-term validation may come at the cost of the relationship’s long-term health:</p>
+<ol class="arabic simple">
+<li><p><strong>Short-Term Optimization</strong>: The proposer optimizes for social media impact, leveraging incomplete information about the relationship’s long-term viability.</p></li>
+<li><p><strong>Diminishing Returns</strong>: Viral moments devalue future iterations. A second engagement or an annulled wedding becomes increasingly costly, much like over-leveraged positions in finance.</p></li>
+<li><p><strong>Winner’s Curse</strong>: The more spectacular the proposal, the higher the expectations for the relationship’s success—a paradox that often leads to disappointment.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+</section>
+<section id="game-theory-analogy-high-stakes-romantic-poker">
+<h2><strong>Game Theory Analogy: High-Stakes Romantic Poker</strong><a class="headerlink" href="#game-theory-analogy-high-stakes-romantic-poker" title="Permalink to this heading">#</a></h2>
+<p>Performative engagements align with <strong>adversarial games of incomplete information</strong>, such as poker. Here’s how:</p>
+<ol class="arabic simple">
+<li><p><strong>Bluffing</strong>: The proposer creates a spectacle (the “bluff”) to signal strength and commitment, regardless of the relationship’s actual stability. The audience (social media) evaluates the bluff based on its production value, not its authenticity.</p></li>
+<li><p><strong>Risk Tolerance</strong>:</p>
+<ul class="simple">
+<li><p>Traditional engagements mirrored <strong>low-variance strategies</strong>, minimizing risk by aligning expectations with reality.</p></li>
+<li><p>Modern engagements adopt <strong>high-variance strategies</strong>, prioritizing dramatic payoffs at the expense of long-term stability.</p></li>
+</ul>
+</li>
+<li><p><strong>Payoff Structures</strong>:</p>
+<ul class="simple">
+<li><p>Immediate payoff: Social media clout, ephemeral dopamine hits.</p></li>
+<li><p>Delayed cost: Relationship instability due to misaligned expectations.</p></li>
+</ul>
+</li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="economic-bubbles-and-romantic-speculation">
+<h2><strong>Economic Bubbles and Romantic Speculation</strong><a class="headerlink" href="#economic-bubbles-and-romantic-speculation" title="Permalink to this heading">#</a></h2>
+<p>Performative engagements can also be modeled as a speculative bubble:</p>
+<ol class="arabic simple">
+<li><p><strong>Early Investment</strong>: Initial investments (lavish proposals) inflate the perceived value of the relationship.</p></li>
+<li><p><strong>Overvaluation</strong>: Social media amplifies the spectacle, creating a feedback loop of overhyped expectations.</p></li>
+<li><p><strong>Market Correction</strong>: The relationship collapses under the weight of its unsustainable foundation, much like a bubble bursting in financial markets.</p></li>
+</ol>
+<p>This mirrors the dynamics of <strong>Ponzi schemes</strong>, where the “returns” (social media validation) are unsustainable, eventually leading to a breakdown.</p>
+<hr class="docutils" />
+</section>
+<section id="iterative-strategies-and-adversarial-adjustment">
+<h2><strong>Iterative Strategies and Adversarial Adjustment</strong><a class="headerlink" href="#iterative-strategies-and-adversarial-adjustment" title="Permalink to this heading">#</a></h2>
+<p>In iterative games, players adapt their strategies based on feedback. For Gen Z, the feedback loop between social media validation and relational outcomes creates a perverse incentive structure:</p>
+<ul class="simple">
+<li><p>Players (couples) optimize for external metrics (likes and shares) rather than internal stability.</p></li>
+<li><p>The payoff matrix becomes distorted, prioritizing the adversarial nature of appearances over the cooperative benefits of commitment.</p></li>
+</ul>
+<p>However, <strong>iterative strategies</strong> also offer a potential solution:</p>
+<ol class="arabic simple">
+<li><p><strong>Reweighting the Payoff Matrix</strong>:</p>
+<ul class="simple">
+<li><p>Incentivize genuine connections through social reinforcement, rather than spectacle.</p></li>
+<li><p>Reduce the cost of “failure” by normalizing modest engagements.</p></li>
+</ul>
+</li>
+<li><p><strong>Learning from Adversarial Dynamics</strong>:</p>
+<ul class="simple">
+<li><p>By recognizing the volatility of performative engagements, couples can adopt hybrid strategies that balance spectacle with substance.</p></li>
+</ul>
+</li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="societys-divorce-from-embodiment">
+<h2><strong>Society’s Divorce from Embodiment</strong><a class="headerlink" href="#societys-divorce-from-embodiment" title="Permalink to this heading">#</a></h2>
+<p>Your insight about society’s divorce from the embodiment of pleasure is key. The shift toward adversarial games reflects a detachment from grounded, iterative rewards:</p>
+<ul class="simple">
+<li><p>In cooperative systems, pleasure arises from shared growth and stability.</p></li>
+<li><p>In adversarial systems, pleasure becomes transactional, fleeting, and externalized.</p></li>
+</ul>
+<p>This mirrors broader societal trends:</p>
+<ul class="simple">
+<li><p><strong>Economic Analogy</strong>: The rise of speculative financial systems over grounded, productive investments.</p></li>
+<li><p><strong>Cultural Analogy</strong>: The prioritization of appearances over authenticity.</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+<section id="conclusion-toward-a-new-equilibrium">
+<h2><strong>Conclusion: Toward a New Equilibrium</strong><a class="headerlink" href="#conclusion-toward-a-new-equilibrium" title="Permalink to this heading">#</a></h2>
+<p>To restore balance, society must reweight its priorities:</p>
+<ul class="simple">
+<li><p><strong>Embodiment over Spectacle</strong>: Shift focus from performative validation to meaningful, iterative engagement.</p></li>
+<li><p><strong>Iterative Strategies</strong>: Normalize relational feedback loops that prioritize stability and growth over high-risk, high-reward dynamics.</p></li>
+<li><p><strong>Cultural Recalibration</strong>: Recognize the unsustainable nature of adversarial romantic dynamics and promote cooperative frameworks.</p></li>
+</ul>
+<p>Your framing positions romantic engagements as microcosms of larger societal forces—adversarial games, speculative bubbles, and the divorce from embodiment. By understanding these dynamics, we can begin to recalibrate toward a richer, more stable equilibrium. Would you like to explore specific solutions or delve deeper into other social phenomena?</p>
+<div class="cell tag_hide-input docutils container">
+<details class="hide above-input">
+<summary aria-label="Toggle hidden content">
+<span class="collapsed">Show code cell source</span>
+<span class="expanded">Hide code cell source</span>
+</summary>
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+
+<span class="c1"># Define the neural network structure</span>
+<span class="k">def</span> <span class="nf">define_layers</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s1">&#39;World&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Cosmos&#39;</span><span class="p">,</span> <span class="s1">&#39;Earth&#39;</span><span class="p">,</span> <span class="s1">&#39;Life&#39;</span><span class="p">,</span> <span class="s1">&#39;Agent&#39;</span><span class="p">,</span> <span class="s1">&#39;Space&#39;</span><span class="p">,</span> <span class="s1">&#39;Time&#39;</span><span class="p">,</span> <span class="p">],</span>
+        <span class="s1">&#39;Perception&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Perception&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Agency&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Digital-Twin&#39;</span><span class="p">,</span> <span class="s1">&#39;Enterprise&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Generativity&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Parasitism&#39;</span><span class="p">,</span> <span class="s1">&#39;Mutualism&#39;</span><span class="p">,</span> <span class="s1">&#39;Commensalism&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Physicality&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Offense&#39;</span><span class="p">,</span> <span class="s1">&#39;Lethality&#39;</span><span class="p">,</span>  <span class="s1">&#39;Retreat&#39;</span><span class="p">,</span> <span class="s1">&#39;Immunity&#39;</span><span class="p">,</span> <span class="s1">&#39;Defense&#39;</span><span class="p">]</span>
+    <span class="p">}</span>
+
+<span class="c1"># Assign colors to nodes</span>
+<span class="k">def</span> <span class="nf">assign_colors</span><span class="p">():</span>
+    <span class="n">color_map</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;yellow&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Perception&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;paleturquoise&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Time&#39;</span><span class="p">,</span> <span class="s1">&#39;Enterprise&#39;</span><span class="p">,</span> <span class="s1">&#39;Commensalism&#39;</span><span class="p">,</span> <span class="s1">&#39;Defense&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;lightgreen&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Space&#39;</span><span class="p">,</span> <span class="s1">&#39;Mutualism&#39;</span><span class="p">,</span> <span class="s1">&#39;Immunity&#39;</span><span class="p">,</span> <span class="s1">&#39;Retreat&#39;</span><span class="p">,</span> <span class="s1">&#39;Lethality&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;lightsalmon&#39;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s1">&#39;Agent&#39;</span><span class="p">,</span> <span class="s1">&#39;Life&#39;</span><span class="p">,</span> <span class="s1">&#39;Digital-Twin&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;Parasitism&#39;</span><span class="p">,</span> <span class="s1">&#39;Offense&#39;</span>
+        <span class="p">],</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="p">{</span><span class="n">node</span><span class="p">:</span> <span class="n">color</span> <span class="k">for</span> <span class="n">color</span><span class="p">,</span> <span class="n">nodes</span> <span class="ow">in</span> <span class="n">color_map</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">}</span>
+
+<span class="c1"># Calculate positions for nodes</span>
+<span class="k">def</span> <span class="nf">calculate_positions</span><span class="p">(</span><span class="n">layer</span><span class="p">,</span> <span class="n">x_offset</span><span class="p">):</span>
+    <span class="n">y_positions</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="nb">len</span><span class="p">(</span><span class="n">layer</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">layer</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">layer</span><span class="p">))</span>
+    <span class="k">return</span> <span class="p">[(</span><span class="n">x_offset</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">y_positions</span><span class="p">]</span>
+
+<span class="c1"># Create and visualize the neural network graph</span>
+<span class="k">def</span> <span class="nf">visualize_nn</span><span class="p">():</span>
+    <span class="n">layers</span> <span class="o">=</span> <span class="n">define_layers</span><span class="p">()</span>
+    <span class="n">colors</span> <span class="o">=</span> <span class="n">assign_colors</span><span class="p">()</span>
+    <span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span>
+    <span class="n">pos</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">node_colors</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="c1"># Add nodes and assign positions</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="p">(</span><span class="n">layer_name</span><span class="p">,</span> <span class="n">nodes</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">layers</span><span class="o">.</span><span class="n">items</span><span class="p">()):</span>
+        <span class="n">positions</span> <span class="o">=</span> <span class="n">calculate_positions</span><span class="p">(</span><span class="n">nodes</span><span class="p">,</span> <span class="n">x_offset</span><span class="o">=</span><span class="n">i</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">position</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">nodes</span><span class="p">,</span> <span class="n">positions</span><span class="p">):</span>
+            <span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="n">layer</span><span class="o">=</span><span class="n">layer_name</span><span class="p">)</span>
+            <span class="n">pos</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="n">position</span>
+            <span class="n">node_colors</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">colors</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="s1">&#39;lightgray&#39;</span><span class="p">))</span>  <span class="c1"># Default color fallback</span>
+
+    <span class="c1"># Add edges (automated for consecutive layers)</span>
+    <span class="n">layer_names</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">layers</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">layer_names</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="n">source_layer</span><span class="p">,</span> <span class="n">target_layer</span> <span class="o">=</span> <span class="n">layer_names</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">layer_names</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+        <span class="k">for</span> <span class="n">source</span> <span class="ow">in</span> <span class="n">layers</span><span class="p">[</span><span class="n">source_layer</span><span class="p">]:</span>
+            <span class="k">for</span> <span class="n">target</span> <span class="ow">in</span> <span class="n">layers</span><span class="p">[</span><span class="n">target_layer</span><span class="p">]:</span>
+                <span class="n">G</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="n">target</span><span class="p">)</span>
+
+    <span class="c1"># Draw the graph</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+    <span class="n">nx</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span>
+        <span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">with_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">node_color</span><span class="o">=</span><span class="n">node_colors</span><span class="p">,</span> <span class="n">edge_color</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">,</span>
+        <span class="n">node_size</span><span class="o">=</span><span class="mi">3000</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">connectionstyle</span><span class="o">=</span><span class="s2">&quot;arc3,rad=0.2&quot;</span>
+    <span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Photons &amp; Divinity, Tryptophan &amp; Red Queen, Silicon &amp; Machine&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="c1"># Run the visualization</span>
+<span class="n">visualize_nn</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</details>
+<div class="cell_output docutils container">
+<img alt="../../_images/2658908598c6b965e28e264877f5cc292cd97fdd40b5beffce0d0fbbfc89193e.png" src="../../_images/2658908598c6b965e28e264877f5cc292cd97fdd40b5beffce0d0fbbfc89193e.png" />
+</div>
+</div>
+<figure class="align-default" id="id1">
+<a class="reference internal image-reference" href="../../_images/blanche.png"><img alt="../../_images/blanche.png" src="../../_images/blanche.png" style="width: 1px; height: 1px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 18 </span><span class="caption-text"><em>Psilocybin</em> is itself biologically inactive but is quickly converted by the body to psilocin, which has mind-altering effects similar, in some aspects, to those of other classical psychedelics. Effects include euphoria, <a class="reference external" href="https://en.wikipedia.org/wiki/Tassili_Mushroom_Figure">hallucinations</a>, changes in <code class="docutils literal notranslate"><span class="pre">perception</span></code>, a distorted sense of <code class="docutils literal notranslate"><span class="pre">time</span></code>, and perceived spiritual experiences. It can also cause adverse reactions such as nausea and panic attacks. In Nahuatl, the language of the Aztecs, the mushrooms were called teonanácatl—literally “divine mushroom.” Source: <a class="reference external" href="https://en.wikipedia.org/wiki/Psilocybin">Wikipedia</a></span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./act3/part1"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="part1_1.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Cosmic</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="part1_3.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Failure</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#romantic-engagements-as-a-game-of-incomplete-information"><strong>Romantic Engagements as a Game of Incomplete Information</strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#key-game-features">Key Game Features:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#economic-equilibria-a-shift-from-cooperative-to-adversarial-dynamics"><strong>Economic Equilibria: A Shift from Cooperative to Adversarial Dynamics</strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cooperative-equilibrium-classical-engagements"><strong>Cooperative Equilibrium</strong> (Classical Engagements):</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adversarial-equilibrium-performative-engagements"><strong>Adversarial Equilibrium</strong> (Performative Engagements):</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#game-theory-analogy-high-stakes-romantic-poker"><strong>Game Theory Analogy: High-Stakes Romantic Poker</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#economic-bubbles-and-romantic-speculation"><strong>Economic Bubbles and Romantic Speculation</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#iterative-strategies-and-adversarial-adjustment"><strong>Iterative Strategies and Adversarial Adjustment</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#societys-divorce-from-embodiment"><strong>Society’s Divorce from Embodiment</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion-toward-a-new-equilibrium"><strong>Conclusion: Toward a New Equilibrium</strong></a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  Copyright © 2025 Zeus
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

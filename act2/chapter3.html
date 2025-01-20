@@ -1,0 +1,715 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Risk &#8212; Sympatico</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-bootstrap.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'act2/chapter3';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Operational" href="../act3/part3.html" />
+    <link rel="prev" title="Engineering" href="chapter2.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="https://alexsym.org/wp-content/uploads/2020/04/sympatico-Abbrev-01-500x394.png" class="logo__image only-light" alt="Sympatico - Home"/>
+    <script>document.write(`<img src="https://alexsym.org/wp-content/uploads/2020/04/sympatico-Abbrev-01-500x394.png" class="logo__image only-dark" alt="Sympatico - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../index.html">
+                    Tactical
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../act1/part1.html">Informational</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../act1/chapter1.html">Referral</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../act1/chapter2.html">Screening</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../act1/chapter3.html">Eligibility</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="part2.html">Strategic</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="chapter1.html">Principal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter2.html">Agent</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Risk</a></li>
+
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../act3/part3.html">Operational</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act3/act1.html">Literature 🌊</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../act3/part1/part1_1.html">Cosmic</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../act3/part1/part1_2.html">Uncertainty</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../act3/part1/part1_3.html">Failure</a></li>
+
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act3/act2.html">Personalize ⚓️</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../act3/part2/part2_1.html">Base</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../act3/part2/part2_2.html">Risk</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../act3/part2/part2_3.html">Student ☔️</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act3/act3.html">Update 🧭</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../act3/part3/part3_1.html">Notification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../act3/part3/part3_2.html">Transformation</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../act3/part3/part3_3.html">Feedback</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../bibliography.html">Existential</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/abikesa/template/main?urlpath=tree/book/website/act2/chapter3.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/act2/chapter3.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Risk</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Risk</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#la-regle-dqm">La Régle, DQM</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#illusion-g1-g2">Illusion, G1 &amp; G2</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ancien-nouveau">Ancién, Nouveau</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#du-jeu-g3">Du Jeu, G3</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grande-ach">Grande, ACh</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"></a></li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="risk">
+<span id="id1"></span><h1>Risk<a class="headerlink" href="#risk" title="Permalink to this heading">#</a></h1>
+<p><strong>Appendix: Classifying Adversarial Games and the Immutable Laws of Odds</strong></p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference internal" href="../act3/part1/part1_3.html#failure"><span class="std std-ref">Failure</span></a></p>
+</div>
+<section id="la-regle-dqm">
+<h2>La Régle, DQM<a class="headerlink" href="#la-regle-dqm" title="Permalink to this heading">#</a></h2>
+<p>In the realm of trial and error, games can be classified based on whether learning can compress or collapse odds, shaping outcomes in ways that reflect the dynamic or static nature of the systems they represent. Some games, like roulette, coin tosses, and dice rolls, operate under immutable laws of probability. These are the purest forms of static games—no amount of repetition, instinct, or pattern recognition alters their odds. The learning network, no matter how sophisticated, cannot impact these systems because they are governed by strict mathematical principles. The inability to compress odds here reflects the fundamental rules of the universe, a reminder of boundaries that human ingenuity and neural networks cannot breach.</p>
+</section>
+<section id="illusion-g1-g2">
+<h2>Illusion, G1 &amp; G2<a class="headerlink" href="#illusion-g1-g2" title="Permalink to this heading">#</a></h2>
+<p>In contrast, there are games like poker, where pattern recognition, instinct, and psychological acuity introduce an element of learning. These games are high-risk and error-prone, but they allow for some compression of odds as players refine their skills. The adversarial nature of poker is unique because it blends raw instinct—reading a bead of sweat or a twitch—with strategy and the capacity to anticipate opponents’ actions. However, this learning is bounded; no amount of pattern recognition can fully predict outcomes in poker because the human element introduces randomness. The adversarial tension lies in balancing instinct with the ability to suppress or manipulate it, making poker a metaphor for high-stakes social dynamics.</p>
+</section>
+<section id="ancien-nouveau">
+<h2>Ancién, Nouveau<a class="headerlink" href="#ancien-nouveau" title="Permalink to this heading">#</a></h2>
+<p>Moving further, we encounter games like horse racing, sports betting, and other wagers where incomplete information dominates. Here, the adversarial challenge extends beyond instincts to include data collection and analysis. Understanding the pedigree of a horse, the condition of a jockey, or the training of an athlete offers a semblance of learning, but the complexity of these systems makes true mastery elusive. The volatility of such environments—new competitors, shifting conditions, and the sheer volume of unknowns—prevents comprehensive compression of odds. These games are a reminder of the constraints imposed by time and information asymmetry, where even the most diligent players remain at the mercy of change.</p>
+</section>
+<section id="du-jeu-g3">
+<h2>Du Jeu, G3<a class="headerlink" href="#du-jeu-g3" title="Permalink to this heading">#</a></h2>
+<p>At the apex of adversarial systems lie those that involve direct human competition in structured environments, such as corporate rivalries or professional sports. These systems are highly dynamic, allowing for significant learning and adaptation over time. Companies, for instance, employ trial and error to refine strategies, often leading to the consolidation of power in oligarchic structures. This process blurs the line between adversarial and cooperative equilibria, as competitors form cartels to restrict market access or establish informal agreements to limit poaching. In American sports leagues like the NFL or NBA, the cartel-like restrictions on teams create controlled adversarial environments, while European leagues, with promotion and relegation, retain a more anarchic and dynamic adversarial quality. These games demonstrate how learning can not only collapse odds but also reshape the rules of engagement.</p>
+</section>
+<section id="grande-ach">
+<h2>Grande, ACh<a class="headerlink" href="#grande-ach" title="Permalink to this heading">#</a></h2>
+<p>Beyond these structured systems, adversarial games bleed into social phenomena, such as modern romantic dynamics. Consider the Gen Z engagement, where proposals have evolved into high-stakes performances optimized for Instagram content. What was once a collapsed process—engagement almost guaranteeing a wedding—has become as volatile as poker. The immediate instinctual gratification of a lavish proposal, complete with balloons and flowers, often dissipates without translating into a wedding. The focus shifts from long-term outcomes to ephemeral validation, reflecting a broader societal shift toward high-risk, high-reward interactions. This dynamic mirrors the adversarial nature of incomplete information systems, where pattern recognition (in this case, social media clout) drives decision-making at the expense of stability. A generation prioritizing click-bait is one divorced from the embodiment of pleasure</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VzQxiu_0pnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure class="align-default" id="id3">
+<a class="reference internal image-reference" href="../_images/blanche.png"><img alt="../_images/blanche.png" src="../_images/blanche.png" style="width: 1px; height: 1px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 13 </span><span class="caption-text"><em>Danse Macabre</em>. Machine learning was already putting pianists out of a job in 1939. Our dear pianists looks completely flabbergasted. Not only has she been displaced, even if she were given the chance, she wouldn’t be able to play with four hands, as demanded by this piano transcription of Saint-Saëns masterpiece.</span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Ultimately, these classifications reveal a spectrum of adversarial systems, from the static and immutable to the dynamic and learnable. They highlight the interplay between rules, instincts, and learning, offering a framework to understand not only games but also broader human behaviors and societal trends. The inability to compress odds in static games reminds us of our limitations, while the volatility of dynamic systems challenges us to navigate complexity with ingenuity. In adversarial settings, from poker tables to Gen Z engagements, the art of compression becomes a metaphor for survival, adaptation, and the ceaseless negotiation of meaning.</p>
+<div class="cell tag_hide-input docutils container">
+<details class="hide above-input">
+<summary aria-label="Toggle hidden content">
+<span class="collapsed">Show code cell source</span>
+<span class="expanded">Hide code cell source</span>
+</summary>
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+
+<span class="c1"># Define the neural network structure</span>
+<span class="k">def</span> <span class="nf">define_layers</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s1">&#39;World&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Cosmos&#39;</span><span class="p">,</span> <span class="s1">&#39;Earth&#39;</span><span class="p">,</span> <span class="s1">&#39;Life&#39;</span><span class="p">,</span> <span class="s1">&#39;Cost&#39;</span><span class="p">,</span> <span class="s1">&#39;Parallel&#39;</span><span class="p">,</span> <span class="s1">&#39;Inheritence&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Framework&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Cosmology&#39;</span><span class="p">,</span> <span class="s1">&#39;Geology&#39;</span><span class="p">,</span> <span class="s1">&#39;Biology&#39;</span><span class="p">,</span> <span class="s1">&#39;Agency&#39;</span><span class="p">,</span> <span class="s1">&#39;Space&#39;</span><span class="p">,</span> <span class="s1">&#39;Time&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Meta&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Divine&#39;</span><span class="p">,</span> <span class="s1">&#39;Red Queen&#39;</span><span class="p">,</span> <span class="s1">&#39;Machine&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Perception&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Perception&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Agency&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Digital-Twin&#39;</span><span class="p">,</span> <span class="s1">&#39;Enterprise&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Generativity&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Parasitism&#39;</span><span class="p">,</span> <span class="s1">&#39;Mutualism&#39;</span><span class="p">,</span> <span class="s1">&#39;Commensalism&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Physicality&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Offense&#39;</span><span class="p">,</span> <span class="s1">&#39;Lethality&#39;</span><span class="p">,</span> <span class="s1">&#39;Retreat&#39;</span><span class="p">,</span> <span class="s1">&#39;Immunity&#39;</span><span class="p">,</span> <span class="s1">&#39;Defense&#39;</span><span class="p">]</span>
+    <span class="p">}</span>
+
+<span class="c1"># Assign colors to nodes</span>
+<span class="k">def</span> <span class="nf">assign_colors</span><span class="p">():</span>
+    <span class="n">color_map</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;yellow&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Perception&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;paleturquoise&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Inheritence&#39;</span><span class="p">,</span> <span class="s1">&#39;Time&#39;</span><span class="p">,</span> <span class="s1">&#39;Enterprise&#39;</span><span class="p">,</span> <span class="s1">&#39;Commensalism&#39;</span><span class="p">,</span> <span class="s1">&#39;Defense&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;lightgreen&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Parallel&#39;</span><span class="p">,</span> <span class="s1">&#39;Machine&#39;</span><span class="p">,</span> <span class="s1">&#39;Mutualism&#39;</span><span class="p">,</span> <span class="s1">&#39;Immunity&#39;</span><span class="p">,</span> <span class="s1">&#39;Retreat&#39;</span><span class="p">,</span> <span class="s1">&#39;Lethality&#39;</span><span class="p">,</span> <span class="s1">&#39;Space&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;lightsalmon&#39;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s1">&#39;Cost&#39;</span><span class="p">,</span> <span class="s1">&#39;Life&#39;</span><span class="p">,</span> <span class="s1">&#39;Digital-Twin&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;Parasitism&#39;</span><span class="p">,</span> <span class="s1">&#39;Offense&#39;</span><span class="p">,</span> <span class="s1">&#39;Agency&#39;</span><span class="p">,</span> <span class="s1">&#39;Biology&#39;</span><span class="p">,</span> <span class="s1">&#39;Red Queen&#39;</span>
+        <span class="p">],</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="p">{</span><span class="n">node</span><span class="p">:</span> <span class="n">color</span> <span class="k">for</span> <span class="n">color</span><span class="p">,</span> <span class="n">nodes</span> <span class="ow">in</span> <span class="n">color_map</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">}</span>
+
+<span class="c1"># Define allowed connections between layers</span>
+<span class="k">def</span> <span class="nf">define_connections</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s1">&#39;World&#39;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s1">&#39;Cosmos&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Cosmology&#39;</span><span class="p">,</span> <span class="s1">&#39;Geology&#39;</span><span class="p">,</span> <span class="s1">&#39;Biology&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;Earth&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Geology&#39;</span><span class="p">,</span> <span class="s1">&#39;Biology&#39;</span><span class="p">,</span> <span class="s1">&#39;Agency&#39;</span><span class="p">,</span> <span class="s1">&#39;Space&#39;</span><span class="p">,</span> <span class="s1">&#39;Time&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;Life&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Biology&#39;</span><span class="p">,</span> <span class="s1">&#39;Agency&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;Cost&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Agency&#39;</span><span class="p">,</span> <span class="s1">&#39;Inheritence&#39;</span><span class="p">,</span> <span class="s1">&#39;Space&#39;</span><span class="p">,</span> <span class="s1">&#39;Time&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;Parallel&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Space&#39;</span><span class="p">,</span> <span class="s1">&#39;Inheritence&#39;</span><span class="p">,</span> <span class="s1">&#39;Time&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;Inheritence&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Time&#39;</span><span class="p">,</span> <span class="s1">&#39;Machine&#39;</span><span class="p">,</span> <span class="s1">&#39;Space&#39;</span><span class="p">,</span> <span class="s1">&#39;Agency&#39;</span><span class="p">]</span>
+        <span class="p">},</span>
+        <span class="s1">&#39;Framework&#39;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s1">&#39;Cosmology&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Divine&#39;</span><span class="p">,</span> <span class="s1">&#39;Red Queen&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;Geology&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Red Queen&#39;</span><span class="p">,</span> <span class="s1">&#39;Machine&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;Biology&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Machine&#39;</span><span class="p">,</span> <span class="s1">&#39;Agency&#39;</span><span class="p">,</span> <span class="s1">&#39;Red Queen&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;Agency&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Divine&#39;</span><span class="p">,</span> <span class="s1">&#39;Red Queen&#39;</span><span class="p">,</span> <span class="s1">&#39;Machine&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;Space&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Divine&#39;</span><span class="p">,</span> <span class="s1">&#39;Machine&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;Time&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Machine&#39;</span><span class="p">,</span> <span class="s1">&#39;Red Queen&#39;</span><span class="p">]</span>
+        <span class="p">},</span>
+        <span class="s1">&#39;Meta&#39;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s1">&#39;Divine&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Perception&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;Red Queen&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Perception&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;Machine&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Perception&#39;</span><span class="p">]</span>
+        <span class="p">},</span>
+        <span class="c1"># Other layers default to fully connected if not specified</span>
+    <span class="p">}</span>
+
+<span class="c1"># Calculate positions for nodes</span>
+<span class="k">def</span> <span class="nf">calculate_positions</span><span class="p">(</span><span class="n">layer</span><span class="p">,</span> <span class="n">x_offset</span><span class="p">):</span>
+    <span class="n">y_positions</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="nb">len</span><span class="p">(</span><span class="n">layer</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">layer</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">layer</span><span class="p">))</span>
+    <span class="k">return</span> <span class="p">[(</span><span class="n">x_offset</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">y_positions</span><span class="p">]</span>
+
+<span class="c1"># Create and visualize the neural network graph</span>
+<span class="k">def</span> <span class="nf">visualize_nn</span><span class="p">():</span>
+    <span class="n">layers</span> <span class="o">=</span> <span class="n">define_layers</span><span class="p">()</span>
+    <span class="n">colors</span> <span class="o">=</span> <span class="n">assign_colors</span><span class="p">()</span>
+    <span class="n">connections</span> <span class="o">=</span> <span class="n">define_connections</span><span class="p">()</span>
+    <span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span>
+    <span class="n">pos</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">node_colors</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="c1"># Add nodes and assign positions</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="p">(</span><span class="n">layer_name</span><span class="p">,</span> <span class="n">nodes</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">layers</span><span class="o">.</span><span class="n">items</span><span class="p">()):</span>
+        <span class="n">positions</span> <span class="o">=</span> <span class="n">calculate_positions</span><span class="p">(</span><span class="n">nodes</span><span class="p">,</span> <span class="n">x_offset</span><span class="o">=</span><span class="n">i</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">position</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">nodes</span><span class="p">,</span> <span class="n">positions</span><span class="p">):</span>
+            <span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="n">layer</span><span class="o">=</span><span class="n">layer_name</span><span class="p">)</span>
+            <span class="n">pos</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="n">position</span>
+            <span class="n">node_colors</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">colors</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="s1">&#39;lightgray&#39;</span><span class="p">))</span>  <span class="c1"># Default color fallback</span>
+
+    <span class="c1"># Add edges based on controlled connections</span>
+    <span class="n">layer_names</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">layers</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">layer_names</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="n">source_layer</span><span class="p">,</span> <span class="n">target_layer</span> <span class="o">=</span> <span class="n">layer_names</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">layer_names</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">source_layer</span> <span class="ow">in</span> <span class="n">connections</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">source</span><span class="p">,</span> <span class="n">targets</span> <span class="ow">in</span> <span class="n">connections</span><span class="p">[</span><span class="n">source_layer</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+                <span class="k">for</span> <span class="n">target</span> <span class="ow">in</span> <span class="n">targets</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="n">target</span> <span class="ow">in</span> <span class="n">layers</span><span class="p">[</span><span class="n">target_layer</span><span class="p">]:</span>
+                        <span class="n">G</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="n">target</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>  <span class="c1"># Fully connect layers without specific connection rules</span>
+            <span class="k">for</span> <span class="n">source</span> <span class="ow">in</span> <span class="n">layers</span><span class="p">[</span><span class="n">source_layer</span><span class="p">]:</span>
+                <span class="k">for</span> <span class="n">target</span> <span class="ow">in</span> <span class="n">layers</span><span class="p">[</span><span class="n">target_layer</span><span class="p">]:</span>
+                    <span class="n">G</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="n">target</span><span class="p">)</span>
+
+    <span class="c1"># Ensure node_colors matches the number of nodes in the graph</span>
+    <span class="n">node_colors</span> <span class="o">=</span> <span class="p">[</span><span class="n">colors</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="s1">&#39;lightgray&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">]</span>
+
+    <span class="c1"># Draw the graph</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
+    <span class="n">nx</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span>
+        <span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">with_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">node_color</span><span class="o">=</span><span class="n">node_colors</span><span class="p">,</span> <span class="n">edge_color</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">,</span>
+        <span class="n">node_size</span><span class="o">=</span><span class="mi">3000</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">connectionstyle</span><span class="o">=</span><span class="s2">&quot;arc3,rad=0.2&quot;</span>
+    <span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Deep Neural Network&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="c1"># Run the visualization</span>
+<span class="n">visualize_nn</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</details>
+<div class="cell_output docutils container">
+<img alt="../_images/661edf4de50835db8b67c8024ef43061cb285b2f2ba510653e71935b3309f174.png" src="../_images/661edf4de50835db8b67c8024ef43061cb285b2f2ba510653e71935b3309f174.png" />
+</div>
+</div>
+<figure class="align-default" id="id4">
+<a class="reference internal image-reference" href="../_images/blanche.png"><img alt="../_images/blanche.png" src="../_images/blanche.png" style="width: 1px; height: 1px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 14 </span><span class="caption-text"><em>Change of Guards</em>. In  Grand Illusion, Renoir was dealing the final blow to the Ancién Régime. And in Rules of the Game, he was hinting at another change of guards, from agentic mankind to one in a mutualistic bind with machines (unsupervised pianos &amp; supervised airplanes). How priscient!</span><a class="headerlink" href="#id4" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="id2">
+<h1><a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h1>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./act2"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="chapter2.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Engineering</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../act3/part3.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Operational</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Risk</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#la-regle-dqm">La Régle, DQM</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#illusion-g1-g2">Illusion, G1 &amp; G2</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ancien-nouveau">Ancién, Nouveau</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#du-jeu-g3">Du Jeu, G3</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grande-ach">Grande, ACh</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"></a></li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  Copyright © 2025 Zeus
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
