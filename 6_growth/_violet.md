@@ -1,1 +1,0 @@
-- To symbolize growth & accomplishments 

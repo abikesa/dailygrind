@@ -1,3 +1,0 @@
-- Quarterly updates
-- Achievements
-- This is [growth](https://www.youtube.com/watch?v=J4ZwF74WInE)
